@@ -38,6 +38,7 @@ int main()
         cout << "The factorial of " << number.getNum() << " is: " << number.factorial() << endl;
     } catch (string error) {
         cout << error << endl;
+        return 1;
     }
 
     return 0;
