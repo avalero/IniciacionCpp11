@@ -56,7 +56,7 @@ private:
 
 int main()
 {
-    Person me("Alberto", 75, 17);
+    Person me{"Alberto", 75, 17};
     cout << "Hello " << me.getName() << ", you are " << me.getAge() << ", you weight "  << me.getWeight() << " kg." << endl;
 
     me.setAge(78);
